@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/line_menu"
+        android:icon="@drawable/line_width"
+        android:title="line_width"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/color_menu"
+        android:icon="@drawable/line_color"
+        android:title="line_color"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/emboss"
+        android:checkable="true"
+        android:title="EMBOSS"/>
+
+    <item
+        android:id="@+id/blur"
+        android:checkable="true"
+        android:title="BLUR" />
+
+    <item
+        android:id="@+id/fill_color"
+        android:checkable="true"
+        android:title="FILL COLOR" />
+
+</menu>
